@@ -1,0 +1,31 @@
+/*Estilo del boton*/
+.boton{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid white;
+}
+
+.boton-white{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    padding: 10px 25px;
+    background: white;
+    border: 1px solid white;
+    font-weight: bold;
+    width: 250px;
+}
+.boton-white:hover{
+    color: black;
+    background-color: rebeccapurple;
+}
+.boton-white:active {
+    background-color: blue;
+}
